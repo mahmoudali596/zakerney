@@ -313,6 +313,8 @@ jobs:
             }
 
             testWidgets('Family phone end-to-end', (t) async {
+              app.main(); // initializes the default Firebase app first
+              await pumpFor(t, 3000);
               // The patient's phone, simulated with a second Firebase app instance.
               step('simulated patient phone creates its record and a pairing code');
               final patApp = await Firebase.initializeApp(name: 'patient', options: firebaseOptions);
@@ -354,7 +356,6 @@ jobs:
               });
 
               step('fresh install: role chooser');
-              app.main();
               await waitFor(t, find.text('موبايل حد من الأسرة'));
               await shot(t, 'f01_role');
               await t.tap(find.text('موبايل حد من الأسرة'));

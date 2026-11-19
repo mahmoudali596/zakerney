@@ -261,6 +261,176 @@ jobs:
             });
           }
           EOF
+          cat > integration_test/family_test.dart <<'EOF'
+          import 'dart:async';
+          import 'dart:io';
+
+          import 'package:cloud_firestore/cloud_firestore.dart';
+          import 'package:firebase_auth/firebase_auth.dart';
+          import 'package:firebase_core/firebase_core.dart';
+          import 'package:flutter/material.dart';
+          import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+          import 'package:flutter_test/flutter_test.dart';
+          import 'package:integration_test/integration_test.dart';
+          import 'package:zakerney/firebase_config.dart';
+          import 'package:zakerney/main.dart' as app;
+          import 'package:zakerney/models.dart';
+          import 'package:zakerney/store.dart';
+
+          const pillJpeg = '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCACgAKADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6XooorlNwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKo6zqlro9hJd30myJeAByzt2VR3J/zxXkHiDxlqmsb4/M+y2jZHkwnGRzwzdTwcEcA46Vy4jFwoaPV9juweX1cXrHRdz2G71OwspBHeXtrbyEbgssqoSPXBPTg1D/b2j/9BXT/APwJT/Gvn+ivPeay6RPYWQwtrN/cfQH9vaP/ANBXT/8AwJT/ABo/t7R/+grp/wD4Ep/jXz/RS/tSf8qD+waf87Pev+En0D/oOaX/AOBcf+NH/CT6B/0HNL/8C4/8a+W6K+j9iu5+e/2tP+VH1J/wk+gf9BzS/wDwLj/xo/4SfQP+g5pf/gXH/jXy3RR7Fdw/taf8qPqT/hJ9A/6Dml/+Bcf+NH/CT6B/0HNL/wDAuP8Axr5boo9iu4f2tP8AlR9Z2F/Z6hCZbC6t7qINtLwSB1B64yD15H51Zrzj4E/8ijd/9fz/APouOvR6wkrOx69Co6tNTfUKKKKRqFFFFABRRWH42uvsfhTU5Nm/dEYsZx98hM/huz+FTOXJFyfQunB1JqC6ux5P4z1x9c1qWVZGazjJS3XPAX+9jA5bGeeeg7Vg0UV8pObnJyluz76lTjSgoQ2QUUUVJYUUUUAcrRRRX3x+EhRRRQAUUUUAe6/An/kUbv8A6/n/APRcdej15x8Cf+RRu/8Ar+f/ANFx16PXHU+Jn1GD/gR9AoooqDqCiiigArB8dWz3fhLUo4yoZYxKd3ojBj+OFNb1MljSWN45UV43BVlYZDA9QR6VFSPPFx7mlKfs5xn2aZ84UVq+JtJfRdauLNtxjU7omb+JD0OcDJ7HHGQayq+UlFxbi90ffQmqkVOOzCiiikUFFFFAHK0UUV98fhIUUUUAFFFFAHuvwJ/5FG7/AOv5/wD0XHXo9ecfAn/kUbv/AK/n/wDRcdej1x1PiZ9Rg/4EfQKKKKg6gooooAKKKKAMjxLoNrr9gbe5GyVcmKYDLRt/UHuO/wBcEeM65oGo6LJtv7dljJwsy/NG3XGG9TgnBwcdq99pksaSxvHKivG4KsrDIYHqCPSuPE4OFf3tmelgsyqYT3d49v8AI+cKK90u/COg3cgkl02FWA24iLRD8lIGfeoP+EH8O/8AQP8A/I8n/wAVXnPK6vRr8f8AI9hZ7QtrF/h/meJUV7b/AMIP4d/6B/8A5Hk/+Ko/4Qfw7/0D/wDyPJ/8VS/sur3X4/5D/t3D/wAsvw/zPmiivo3/AIVv4U/6BX/kxL/8VR/wrfwp/wBAr/yYl/8Aiq+n9tE/NP7Krd1+P+R85UV9G/8ACt/Cn/QK/wDJiX/4qj/hW/hT/oFf+TEv/wAVR7aIf2VW7r8f8j5yor6N/wCFb+FP+gV/5MS//FUf8K38Kf8AQK/8mJf/AIqj20Q/sqt3X4/5GP8AAn/kUbv/AK/n/wDRcdej1m6Domn6DZva6Tb/AGeB5DKy72fLEAZyxJ6AVpVzyd3c9rD03Spxg90FFFFI2CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z';
+
+          Future<void> pumpFor(WidgetTester t, int ms) async {
+            for (var i = 0; i < ms ~/ 100; i++) {
+              await t.pump(const Duration(milliseconds: 100));
+            }
+          }
+
+          Future<void> waitFor(WidgetTester t, Finder f, {int seconds = 40}) async {
+            for (var i = 0; i < seconds * 10; i++) {
+              await t.pump(const Duration(milliseconds: 100));
+              if (f.evaluate().isNotEmpty) return;
+            }
+            throw TestFailure('Timed out waiting for $f');
+          }
+
+          Future<void> waitUntil(WidgetTester t, bool Function() ok, String what, {int seconds = 40}) async {
+            for (var i = 0; i < seconds * 10; i++) {
+              if (ok()) return;
+              await t.pump(const Duration(milliseconds: 100));
+            }
+            throw TestFailure('Timed out waiting for $what');
+          }
+
+          void step(String s) => debugPrint('E2E STEP: $s');
+
+          void main() {
+            final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+
+            Future<void> shot(WidgetTester t, String name) async {
+              await pumpFor(t, 800);
+              await binding.takeScreenshot(name);
+              step('screenshot $name');
+            }
+
+            testWidgets('Family phone end-to-end', (t) async {
+              // The patient's phone, simulated with a second Firebase app instance.
+              step('simulated patient phone creates its record and a pairing code');
+              final patApp = await Firebase.initializeApp(name: 'patient', options: firebaseOptions);
+              final patUid = (await FirebaseAuth.instanceFor(app: patApp).signInAnonymously()).user!.uid;
+              final patDb = FirebaseFirestore.instanceFor(app: patApp);
+              final now = DateTime.now();
+              String hm(DateTime d) => '${two(d.hour)}:${two(d.minute)}';
+              final dueTime = hm(now.subtract(const Duration(minutes: 2)));
+              final ref = patDb.collection('patients').doc();
+              await ref.set({
+                'members': [patUid],
+                'patientName': 'الحاجة فاطمة',
+                'caregiverName': 'عمر',
+                'caregiverPhone': '01000000000',
+                'meds': [
+                  {'id': 'p1', 'name': 'دواء الضغط', 'dose': '5 مجم', 'instructions': 'بعد الفطار', 'imageVersion': 111,
+                   'times': [dueTime], 'snoozeMinutes': 5, 'maxAlerts': 3, 'activeFrom': now.subtract(const Duration(days: 1)).toIso8601String()},
+                  {'id': 'p2', 'name': 'دواء الذاكرة', 'dose': '10 مجم', 'instructions': 'بعد الغدا', 'imageVersion': 0,
+                   'times': [hm(now.add(const Duration(hours: 2)))], 'snoozeMinutes': 5, 'maxAlerts': 3, 'activeFrom': now.subtract(const Duration(days: 1)).toIso8601String()},
+                ],
+                'medsUpdatedBy': patUid,
+              });
+              await ref.collection('images').doc('p1').set({'data': pillJpeg, 'v': 111});
+              final code = '${100000 + now.millisecondsSinceEpoch % 900000}';
+              await patDb.collection('pairing').doc(code).set({
+                'patientId': ref.id,
+                'expiresAt': Timestamp.fromDate(now.add(const Duration(minutes: 10))),
+                'familyUid': null,
+                'familyName': null,
+              });
+              // Patient phone approves the family phone when it shows up (what PairFamilyScreen does).
+              late StreamSubscription sub;
+              sub = patDb.collection('pairing').doc(code).snapshots().listen((s) async {
+                final uid = s.data()?['familyUid'] as String?;
+                if (uid == null) return;
+                await sub.cancel();
+                await ref.update({'members': FieldValue.arrayUnion([uid])});
+                await patDb.collection('pairing').doc(code).delete();
+              });
+
+              step('fresh install: role chooser');
+              app.main();
+              await waitFor(t, find.text('موبايل حد من الأسرة'));
+              await shot(t, 'f01_role');
+              await t.tap(find.text('موبايل حد من الأسرة'));
+              await pumpFor(t, 1200);
+
+              step('type name and code by hand');
+              await t.enterText(find.byType(TextField).at(0), 'عمر');
+              await t.enterText(find.byType(TextField).at(1), code);
+              await pumpFor(t, 500);
+              await shot(t, 'f02_join');
+              await t.tap(find.text('ربط'));
+              await waitUntil(t, () => appState.isFamily && appState.patientDocId == ref.id, 'family linked', seconds: 60);
+
+              step('family home shows the patient medications with the photo');
+              await waitFor(t, find.textContaining('الحاجة فاطمة'), seconds: 30);
+              await waitFor(t, find.text('دواء الضغط'), seconds: 30);
+              await waitUntil(t, () {
+                final m = appState.meds.where((m) => m.id == 'p1').firstOrNull;
+                final f = m == null ? null : appState.imageOf(m);
+                return f != null && f.existsSync();
+              }, 'photo synced', seconds: 30);
+              await shot(t, 'f03_family_meds');
+
+              step('follow-up reminders scheduled on family phone');
+              final plugin = FlutterLocalNotificationsPlugin();
+              await pumpFor(t, 1500);
+              final pending = await plugin.pendingNotificationRequests();
+              step('pending family reminders: ${pending.length}');
+              expect(pending.isNotEmpty, isTrue);
+
+              step('patient confirms a dose and presses help');
+              final doseKey = 'p1|$dueTime|${dateKey(now)}';
+              await ref.collection('events').add({'at': Timestamp.now(), 'kind': 'ok', 'text': 'أكّد المريض تناول دواء الضغط — جرعة ${fmtTime(dueTime)}', 'doseKey': doseKey});
+              await ref.collection('events').add({'at': Timestamp.now(), 'kind': 'help', 'text': 'المريض ضغط «أحتاج مساعدة»', 'doseKey': null});
+              await waitUntil(t, () => appState.isConfirmed(doseKey), 'confirmation reached family', seconds: 30);
+              await pumpFor(t, 2000);
+              final android = plugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>();
+              final active = await android!.getActiveNotifications();
+              step('active notifications: ${active.map((n) => n.title).toList()}');
+              expect(active.any((n) => (n.title ?? '').contains('محتاج مساعدة')), isTrue);
+
+              await t.tap(find.text('السجل'));
+              await pumpFor(t, 1500);
+              expect(find.text('تم التأكيد'), findsWidgets);
+              await shot(t, 'f04_family_log');
+
+              step('family edits a medication from its phone');
+              await t.tap(find.text('الأدوية').first);
+              await pumpFor(t, 1000);
+              await t.tap(find.text('دواء الذاكرة'));
+              await pumpFor(t, 1500);
+              await t.enterText(find.widgetWithText(TextFormField, 'اسم الدواء'), 'دواء الذاكرة (معدّل)');
+              await shot(t, 'f05_edit');
+              final save = find.text('حفظ التعديل');
+              await t.scrollUntilVisible(save, 250, scrollable: find.byWidgetPredicate((w) => w is Scrollable && w.axisDirection == AxisDirection.down).first, maxScrolls: 30);
+              await t.tap(save);
+              var updated = false;
+              for (var i = 0; i < 60 && !updated; i++) {
+                await t.pump(const Duration(milliseconds: 500));
+                final d = await ref.get(const GetOptions(source: Source.server));
+                updated = (d.data()!['meds'] as List).any((m) => (m as Map)['name'] == 'دواء الذاكرة (معدّل)');
+              }
+              expect(updated, isTrue);
+              await shot(t, 'f06_after_edit');
+
+              step('settings tab for linked phone');
+              await t.tap(find.text('الإعدادات'));
+              await pumpFor(t, 1200);
+              expect(find.textContaining('الموبايل ده مربوط بموبايل المريض'), findsOneWidget);
+              expect(find.text('تجربة التنبيه'), findsNothing);
+              await shot(t, 'f07_settings');
+              expect(File('${appState.imagesDir.path}/p1_111.jpg').existsSync(), isTrue);
+              step('FAMILY CHECKS PASSED');
+            });
+          }
+          EOF
           cat > test_driver/integration_test.dart <<'EOF'
           import 'dart:io';
 
@@ -279,12 +449,19 @@ jobs:
           cd zakerney
           adb shell settings put global window_animation_scale 0
           flutter drive --driver=test_driver/integration_test.dart --target=integration_test/app_test.dart 2>&1 | tee drive.log
-          status=${PIPESTATUS[0]}
+          s1=${PIPESTATUS[0]}
           adb logcat -d > logcat.txt
+          adb logcat -c
+          adb shell pm clear com.zakerney.zakerney
+          adb shell pm grant com.zakerney.zakerney android.permission.POST_NOTIFICATIONS || true
+          adb shell appops set com.zakerney.zakerney USE_FULL_SCREEN_INTENT allow || true
+          flutter drive --driver=test_driver/integration_test.dart --target=integration_test/family_test.dart 2>&1 | tee drive2.log
+          s2=${PIPESTATUS[0]}
+          adb logcat -d > logcat2.txt
           mkdir -p screenshots
-          cp drive.log logcat.txt screenshots/
-          grep -c "FATAL EXCEPTION" logcat.txt > screenshots/crash_count.txt || true
-          exit $status
+          cp drive.log drive2.log logcat.txt logcat2.txt screenshots/
+          cat logcat.txt logcat2.txt | grep -c "FATAL EXCEPTION" > screenshots/crash_count.txt || true
+          [ $s1 -eq 0 ] && [ $s2 -eq 0 ]
           EOF
           flutter pub get
           flutter analyze --no-fatal-infos --no-fatal-warnings || true

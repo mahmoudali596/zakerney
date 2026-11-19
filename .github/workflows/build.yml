@@ -24,7 +24,8 @@ jobs:
           bash setup.sh
           sed -i 's/flutter\.minSdkVersion/24/' android/app/build.gradle*
           grep -n minSdk android/app/build.gradle*
-          flutter build apk --release
+          for i in 1 2 3 4; do flutter build apk --release && break; echo "retry $i"; sleep 30; done
+          test -f build/app/outputs/flutter-apk/app-release.apk
       - uses: actions/upload-artifact@v4
         with:
           name: zakerney-apk

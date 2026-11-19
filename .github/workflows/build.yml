@@ -23,6 +23,8 @@ jobs:
         run: |
           bash setup.sh
           sed -i 's/flutter\.minSdkVersion/24/' android/app/build.gradle*
+          sed -i 's#<uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>#&\n    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>#' android/app/src/main/AndroidManifest.xml
+          grep -n EXACT android/app/src/main/AndroidManifest.xml
           for i in 1 2 3 4; do flutter build apk --release && break; echo "retry $i"; sleep 30; done
           test -f build/app/outputs/flutter-apk/app-release.apk
       - uses: actions/upload-artifact@v4
@@ -51,6 +53,8 @@ jobs:
         run: |
           bash setup.sh
           sed -i 's/flutter\.minSdkVersion/24/' android/app/build.gradle*
+          sed -i 's#<uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>#&\n    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>#' android/app/src/main/AndroidManifest.xml
+          grep -n EXACT android/app/src/main/AndroidManifest.xml
           printf '\ndev_dependencies:\n  flutter_test:\n    sdk: flutter\n  integration_test:\n    sdk: flutter\n' >> pubspec.yaml
           mkdir -p integration_test test_driver
           cat > integration_test/app_test.dart <<'EOF'
@@ -77,6 +81,13 @@ jobs:
               if (f.evaluate().isNotEmpty) return;
             }
             throw TestFailure('Timed out waiting for $f');
+          }
+
+          Finder get vScroll => find.byWidgetPredicate((w) => w is Scrollable && (w.axisDirection == AxisDirection.down || w.axisDirection == AxisDirection.up)).first;
+
+          Future<void> reveal(WidgetTester t, Finder f, {double dy = 250}) async {
+            await t.scrollUntilVisible(f, dy, scrollable: vScroll, maxScrolls: 30);
+            await pumpFor(t, 300);
           }
 
           void step(String s) => debugPrint('E2E STEP: $s');
@@ -124,11 +135,14 @@ jobs:
               expect(appState.logs.any((l) => l.kind == 'ok' && l.text.contains('دواء الضغط')), isTrue);
               await pumpFor(t, 2500);
               expect(find.textContaining('حان موعد الدواء'), findsNothing);
+              await reveal(t, find.text('تم التأكيد'));
               expect(find.text('تم التأكيد'), findsWidgets);
+              await reveal(t, find.text('لم يتم التأكيد'));
               expect(find.text('لم يتم التأكيد'), findsWidgets);
               await shot(t, '02_patient_home');
 
               step('help button');
+              await reveal(t, find.text('أحتاج مساعدة'), dy: -250);
               await t.tap(find.text('أحتاج مساعدة'));
               await pumpFor(t, 1200);
               expect(find.text('01000000000'), findsOneWidget);
@@ -148,6 +162,7 @@ jobs:
               await t.enterText(find.byType(TextField), '1234');
               await t.tap(find.text('دخول'));
               await pumpFor(t, 1500);
+              await reveal(t, find.text('فيتامين د'));
               expect(find.text('فيتامين د'), findsWidgets);
               await shot(t, '04_family_meds');
 
@@ -158,17 +173,21 @@ jobs:
 
               step('add medication');
               await t.tap(find.text('الأدوية').first);
+              await pumpFor(t, 800);
+              await reveal(t, find.text('إضافة دواء'), dy: -250);
               await pumpFor(t, 1000);
               await t.tap(find.text('إضافة دواء').first);
               await pumpFor(t, 1500);
               await t.enterText(find.widgetWithText(TextFormField, 'اسم الدواء'), 'دواء السكر');
               await t.enterText(find.widgetWithText(TextFormField, 'التركيز والكمية'), '500 مجم');
+              await reveal(t, find.text('إضافة موعد'));
               await t.tap(find.text('إضافة موعد'));
               await pumpFor(t, 1500);
               await shot(t, '06_time_picker');
               await t.tap(find.byType(TextButton).last);
               await pumpFor(t, 1000);
               await shot(t, '07_med_editor');
+              await reveal(t, find.text('حفظ الدواء'));
               await t.tap(find.text('حفظ الدواء'));
               await pumpFor(t, 1500);
               expect(appState.meds.length, 4);
@@ -217,6 +236,7 @@ jobs:
           api-level: 34
           target: google_apis
           arch: x86_64
+          profile: pixel_6
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: bash zakerney/tool/run_e2e.sh

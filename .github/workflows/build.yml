@@ -22,6 +22,8 @@ jobs:
         working-directory: zakerney
         run: |
           bash setup.sh
+          sed -i 's/flutter\.minSdkVersion/24/' android/app/build.gradle*
+          grep -n minSdk android/app/build.gradle*
           flutter build apk --release
       - uses: actions/upload-artifact@v4
         with:

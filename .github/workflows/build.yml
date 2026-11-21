@@ -10,6 +10,7 @@ jobs:
         run: |
           echo "$SRC" | base64 -d | tar xJ
           python3 zakerney/tool/gen_alarm.py zakerney/assets/sounds/alarm.wav
+          sed -i 's/record: ^5.1.2/record: ^6.1.1/' zakerney/pubspec.yaml
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -37,6 +38,7 @@ jobs:
         run: |
           echo "$SRC" | base64 -d | tar xJ
           python3 zakerney/tool/gen_alarm.py zakerney/assets/sounds/alarm.wav
+          sed -i 's/record: ^5.1.2/record: ^6.1.1/' zakerney/pubspec.yaml
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

@@ -1,0 +1,8 @@
+device time 11:49:47, dose at 11:52
+alarms registered: 0
+process after kill: ''
+waiting 158 s
+notification count: 0
+resumed: 
+FATAL in release: 0
+RELEASE ALARM FAILED

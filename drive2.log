@@ -1,0 +1,265 @@
+Resolving dependencies...
+Downloading packages...
+  _flutterfire_internals 1.3.59 (1.4.0 available)
+  archive 4.0.9 (4.7.1 available)
+  async 2.13.0 (2.13.1 available)
+  audioplayers 6.6.0 (6.8.1 available)
+  audioplayers_android 5.2.1 (5.3.0 available)
+  audioplayers_darwin 6.4.0 (6.5.0 available)
+  audioplayers_linux 4.2.1 (4.3.0 available)
+  audioplayers_platform_interface 7.1.1 (7.2.0 available)
+  audioplayers_web 5.2.0 (5.3.0 available)
+  audioplayers_windows 4.3.0 (4.4.1 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  cloud_firestore 5.6.12 (7.2.0 available)
+  cloud_firestore_platform_interface 6.6.12 (8.2.0 available)
+  cloud_firestore_web 4.4.12 (5.9.0 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.1 available)
+  device_info_plus 11.5.0 (13.3.0 available)
+  device_info_plus_platform_interface 7.0.3 (8.1.0 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.4+4 (0.9.5+2 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  firebase_auth 5.7.0 (7.1.0 available)
+  firebase_auth_platform_interface 7.7.3 (9.2.0 available)
+  firebase_auth_web 5.15.3 (6.4.0 available)
+  firebase_core 3.15.2 (5.2.0 available)
+  firebase_core_platform_interface 6.0.3 (8.2.0 available)
+  firebase_core_web 2.24.1 (4.2.0 available)
+  flutter_local_notifications 17.2.4 (23.0.4 available)
+  flutter_local_notifications_linux 4.0.1 (9.0.0 available)
+  flutter_local_notifications_platform_interface 7.2.0 (13.0.0 available)
+  flutter_plugin_android_lifecycle 2.0.31 (2.0.35 available)
+  flutter_timezone 3.0.1 (5.1.1 available)
+  image 4.5.4 (4.13.1 available)
+  image_picker 1.2.1 (1.2.4 available)
+  image_picker_android 0.8.13+1 (0.8.13+25 available)
+  image_picker_ios 0.8.13 (0.8.13+16 available)
+  image_picker_macos 0.2.2 (0.2.2+1 available)
+  image_picker_platform_interface 2.11.1 (2.11.2 available)
+  intl 0.20.2 (0.20.3 available)
+  leak_tracker 10.0.9 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  package_info_plus 9.0.1 (10.2.2 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.11.3 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  printing 5.14.3 (5.15.1 available)
+  process 5.0.3 (5.0.6 available)
+  qr 3.0.3 (4.0.1 available)
+  record 6.2.1 (7.2.0 available)
+  record_android 1.5.2 (2.3.0 available)
+  record_ios 1.2.1 (2.1.1 available)
+  record_linux 1.3.1 (2.2.0 available)
+  record_macos 1.2.2 (2.1.1 available)
+  record_platform_interface 1.6.0 (2.2.0 available)
+  record_web 1.3.0 (2.2.0 available)
+  record_windows 1.0.7 (2.4.0 available)
+  shared_preferences 2.5.3 (2.5.6 available)
+  shared_preferences_android 2.4.13 (2.5.5 available)
+  shared_preferences_foundation 2.5.4 (2.6.2 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  source_span 1.10.1 (1.10.2 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  synchronized 3.4.0 (3.6.1+1 available)
+  test_api 0.7.4 (0.7.15 available)
+  timezone 0.9.4 (0.11.2 available)
+  url_launcher 6.3.2 (6.3.3 available)
+  url_launcher_android 6.3.20 (6.3.35 available)
+  url_launcher_ios 6.3.4 (6.4.2 available)
+  url_launcher_linux 3.2.2 (3.2.3 available)
+  url_launcher_macos 3.2.3 (3.2.6 available)
+  url_launcher_web 2.4.1 (2.4.3 available)
+  url_launcher_windows 3.1.5 (3.1.6 available)
+  vector_math 2.1.4 (2.4.4 available)
+  vibration 2.1.0 (3.2.1 available)
+  vibration_platform_interface 0.0.3 (0.1.2 available)
+  vm_service 15.0.0 (15.4.0 available)
+  wakelock_plus 1.4.0 (1.8.2 available)
+  wakelock_plus_platform_interface 1.3.0 (1.7.0 available)
+  web 1.1.1 (1.1.2 available)
+  webdriver 3.1.0 (3.2.0 available)
+  win32 5.15.0 (6.4.0 available)
+  win32_registry 2.1.0 (3.0.3 available)
+  xml 6.6.1 (7.1.0 available)
+Got dependencies!
+94 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                          
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- cloud_firestore requires Android NDK 27.0.12077973
+- device_info_plus requires Android NDK 27.0.12077973
+- firebase_auth requires Android NDK 27.0.12077973
+- firebase_core requires Android NDK 27.0.12077973
+- flutter_local_notifications requires Android NDK 27.0.12077973
+- flutter_plugin_android_lifecycle requires Android NDK 27.0.12077973
+- flutter_timezone requires Android NDK 27.0.12077973
+- image_picker_android requires Android NDK 27.0.12077973
+- package_info_plus requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+- printing requires Android NDK 27.0.12077973
+- record_android requires Android NDK 27.0.12077973
+- shared_preferences_android requires Android NDK 27.0.12077973
+- url_launcher_android requires Android NDK 27.0.12077973
+- vibration requires Android NDK 27.0.12077973
+- wakelock_plus requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to /home/runner/work/zakerney/zakerney/zakerney/android/app/build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Running Gradle task 'assembleDebug'...                             33.9s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...        1,362ms
+I/Choreographer( 7038): Skipped 81 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:43551/DxaTek8kUaY=/
+VMServiceFlutterDriver: Isolate found with number: 1166771000062035
+VMServiceFlutterDriver: Isolate 1166771000062035 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 7038): 00:00 +0: Family phone end-to-end
+VMServiceFlutterDriver: Connected to Flutter application.
+I/flutter ( 7038): E2E STEP: simulated patient phone creates its record and a pairing code
+D/CompatibilityChangeReporter( 7038): Compat change id reported: 183155436; UID 10193; state: ENABLED
+I/FirebaseApp( 7038): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+D/CompatibilityChangeReporter( 7038): Compat change id reported: 3400644; UID 10193; state: ENABLED
+I/FirebaseApp( 7038): Device unlocked: initializing all Firebase APIs for app patient
+W/kerney.zakerney( 7038): Long monitor contention with owner Firebase Background Thread #1 (7146) at java.lang.Void com.google.firebase.heartbeatinfo.DefaultHeartBeatController.lambda$registerHeartBeat$0$com-google-firebase-heartbeatinfo-DefaultHeartBeatController()(DefaultHeartBeatController.java:70) waiters=1 in java.lang.Void com.google.firebase.heartbeatinfo.DefaultHeartBeatController.lambda$registerHeartBeat$0$com-google-firebase-heartbeatinfo-DefaultHeartBeatController() for 130ms
+W/System  ( 7038): Ignoring header X-Firebase-Locale because its value was null.
+D/TrafficStats( 7038): tagSocket(128) with statsTag=0xffffffff, statsUid=-1
+W/System  ( 7038): Ignoring header X-Firebase-Locale because its value was null.
+D/ProfileInstaller( 7038): Installing profile for com.zakerney.zakerney
+D/FirebaseAuth( 7038): Notifying id token listeners about user ( 0oIzYH1YcjOOYFGgBRGmVwRlOus2 ).
+D/FirebaseAuth( 7038): Notifying auth state listeners about user ( 0oIzYH1YcjOOYFGgBRGmVwRlOus2 ).
+W/DynamiteModule( 7038): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule( 7038): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 7038): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/nativeloader( 7038): Configuring clns-7 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/nativeloader( 7038): Configuring clns-8 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/nativeloader( 7038): Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/ApplicationLoaders( 7038): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders( 7038): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+D/nativeloader( 7038): InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvndksupport.so:libvulkan.so
+D/nativeloader( 7038): Configuring product-clns-10 for unbundled product apk /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk. target_sdk_version=33, uses_libraries=, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+D/nativeloader( 7038): InitVndkspLibrariesProduct: android.hardware.common-V2-ndk.so:android.hardware.common.fmq-V1-ndk.so:android.hardware.graphics.allocator-V2-ndk.so:android.hardware.graphics.common-V4-ndk.so:android.hardware.graphics.common@1.0.so:android.hardware.graphics.common@1.1.so:android.hardware.graphics.common@1.2.so:android.hardware.graphics.composer3-V1-ndk.so:android.hardware.graphics.mapper@2.0.so:android.hardware.graphics.mapper@2.1.so:android.hardware.graphics.mapper@3.0.so:android.hardware.graphics.mapper@4.0.so:android.hardware.renderscript@1.0.so:android.hidl.memory.token@1.0.so:android.hidl.memory@1.0-impl.so:android.hidl.memory@1.0.so:android.hidl.safe_union@1.0.so:libRSCpuRef.so:libRSDriver.so:libRS_internal.so:libbase.so:libbcinfo.so:libblas.so:libc++.so:libcompiler_rt.so:libcutils.so:libdmabufheap.so:libgralloctypes.so:libhardware.so:libhidlbase.so:libhidlmemory.so:libion.so:libjsoncpp.so:liblzma.so:libprocessgroup.so:libunwindstack.so:libutils.so:libutilscallstack.so:libz.so
+V/NativeCrypto( 7038): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 295 native methods...
+W/kerney.zakerney( 7038): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (unsupported, reflection, allowed)
+I/ProviderInstaller( 7038): Installed default security provider GmsCore_OpenSSL
+D/TrafficStats( 7038): tagSocket(147) with statsTag=0xffffffff, statsUid=-1
+W/kerney.zakerney( 7038): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (unsupported, reflection, allowed)
+W/kerney.zakerney( 7038): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (unsupported, reflection, allowed)
+I/flutter ( 7038): E2E STEP: fresh install: role chooser
+D/CompatibilityChangeReporter( 7038): Compat change id reported: 236825255; UID 10193; state: ENABLED
+I/kerney.zakerney( 7038): Background concurrent copying GC freed 100664(5615KB) AllocSpace objects, 27(1148KB) LOS objects, 49% free, 4894KB/9788KB, paused 83us,16us total 227.827ms
+D/EGL_emulation( 7038): app_time_stats: avg=2204.19ms min=1136.36ms max=3272.03ms count=2
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 7038): app_time_stats: avg=2622.21ms min=1022.85ms max=4221.57ms count=2
+I/flutter ( 7038): E2E STEP: screenshot f01_role
+W/WindowOnBackDispatcher( 7038): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 7038): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 7038): app_time_stats: avg=190.65ms min=17.33ms max=818.49ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=94.17ms min=17.04ms max=118.73ms count=11
+I/flutter ( 7038): E2E STEP: type name and code by hand
+I/ImeTracker( 7038): com.zakerney.zakerney:514e070a: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:514e070a: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 7038): com.zakerney.zakerney:21f5bded: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:21f5bded: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+D/EGL_emulation( 7038): app_time_stats: avg=1090.79ms min=794.98ms max=1386.61ms count=2
+I/AssistStructure( 7038): Flattened final assist data: 388 bytes, containing 1 windows, 3 views
+I/ImeTracker( 7038): com.zakerney.zakerney:26e9462: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:26e9462: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 7038): com.zakerney.zakerney:5917431f: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:5917431f: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/AssistStructure( 7038): Flattened final assist data: 388 bytes, containing 1 windows, 3 views
+D/EGL_emulation( 7038): app_time_stats: avg=120.27ms min=104.08ms max=159.76ms count=9
+D/EGL_emulation( 7038): app_time_stats: avg=1637.97ms min=1637.97ms max=1637.97ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f02_join
+W/System  ( 7038): Ignoring header X-Firebase-Locale because its value was null.
+D/TrafficStats( 7038): tagSocket(158) with statsTag=0xffffffff, statsUid=-1
+D/EGL_emulation( 7038): app_time_stats: avg=148.42ms min=113.42ms max=402.76ms count=9
+W/System  ( 7038): Ignoring header X-Firebase-Locale because its value was null.
+D/FirebaseAuth( 7038): Notifying id token listeners about user ( UYCjVmvS0ceyX3YrK3r8ROpdcne2 ).
+D/FirebaseAuth( 7038): Notifying auth state listeners about user ( UYCjVmvS0ceyX3YrK3r8ROpdcne2 ).
+W/DynamiteModule( 7038): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule( 7038): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 7038): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/TrafficStats( 7038): tagSocket(183) with statsTag=0xffffffff, statsUid=-1
+D/EGL_emulation( 7038): app_time_stats: avg=96.87ms min=17.10ms max=125.33ms count=11
+D/EGL_emulation( 7038): app_time_stats: avg=116.73ms min=113.05ms max=119.80ms count=9
+I/flutter ( 7038): E2E STEP: family home shows the patient medications with the photo
+I/ImeTracker( 7038): com.zakerney.zakerney:33bd41f9: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:33bd41f9: onFailed at PHASE_CLIENT_VIEW_SERVED
+D/CompatibilityChangeReporter( 7038): Compat change id reported: 160794467; UID 10193; state: ENABLED
+D/EGL_emulation( 7038): app_time_stats: avg=175.96ms min=103.15ms max=269.50ms count=6
+D/EGL_emulation( 7038): app_time_stats: avg=4272.91ms min=4272.91ms max=4272.91ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f03_family_home
+I/flutter ( 7038): E2E STEP: follow-up reminders scheduled on family phone
+D/EGL_emulation( 7038): app_time_stats: avg=150.63ms min=110.02ms max=354.78ms count=7
+D/EGL_emulation( 7038): app_time_stats: avg=115.96ms min=113.28ms max=119.64ms count=9
+I/flutter ( 7038): E2E STEP: pending family reminders: 4
+I/flutter ( 7038): E2E STEP: patient confirms a dose and presses help
+D/EGL_emulation( 7038): app_time_stats: avg=295.78ms min=114.26ms max=1187.24ms count=6
+D/EGL_emulation( 7038): app_time_stats: avg=145.88ms min=48.18ms max=258.24ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=109.84ms min=52.95ms max=176.93ms count=10
+I/flutter ( 7038): E2E STEP: active notifications: [null, الحاجة فاطمة محتاج مساعدة, الدوا قرب يخلص]
+D/EGL_emulation( 7038): app_time_stats: avg=110.65ms min=22.82ms max=238.68ms count=10
+D/EGL_emulation( 7038): app_time_stats: avg=125.83ms min=44.24ms max=251.95ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=154.93ms min=124.47ms max=193.79ms count=7
+D/EGL_emulation( 7038): app_time_stats: avg=8819.11ms min=8819.11ms max=8819.11ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f04_family_log
+I/flutter ( 7038): E2E STEP: family edits a medication from its phone
+I/kerney.zakerney( 7038): Background young concurrent copying GC freed 28033(1466KB) AllocSpace objects, 30(2932KB) LOS objects, 42% free, 5598KB/9701KB, paused 33us,16us total 108.355ms
+D/EGL_emulation( 7038): app_time_stats: avg=804.86ms min=221.32ms max=1388.40ms count=2
+D/EGL_emulation( 7038): app_time_stats: avg=98.51ms min=30.81ms max=120.84ms count=11
+W/WindowOnBackDispatcher( 7038): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 7038): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 7038): app_time_stats: avg=119.47ms min=18.63ms max=260.76ms count=9
+I/ImeTracker( 7038): com.zakerney.zakerney:f36ad198: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:f36ad198: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 7038): com.zakerney.zakerney:37a0c560: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:37a0c560: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 7038): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{20e7af VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+D/EGL_emulation( 7038): app_time_stats: avg=113.15ms min=23.56ms max=173.14ms count=10
+D/EGL_emulation( 7038): app_time_stats: avg=5523.67ms min=5523.67ms max=5523.67ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f05_edit
+I/ImeTracker( 7038): com.zakerney.zakerney:fc7e449d: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+I/ImeTracker( 7038): com.zakerney.zakerney:fc7e449d: onFailed at PHASE_CLIENT_VIEW_SERVED
+D/EGL_emulation( 7038): app_time_stats: avg=145.49ms min=91.94ms max=369.30ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=101.89ms min=43.52ms max=125.70ms count=10
+D/EGL_emulation( 7038): app_time_stats: avg=189.67ms min=21.57ms max=908.31ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=105.78ms min=44.25ms max=127.42ms count=10
+D/EGL_emulation( 7038): app_time_stats: avg=116.36ms min=112.26ms max=119.87ms count=9
+I/flutter ( 7038): E2E STEP: after save: editor open=false local=[دواء الضغط, دواء الذاكرة (معدّل)]
+D/EGL_emulation( 7038): app_time_stats: avg=174.26ms min=114.56ms max=521.80ms count=7
+D/EGL_emulation( 7038): app_time_stats: avg=136.79ms min=114.72ms max=278.18ms count=8
+D/EGL_emulation( 7038): app_time_stats: avg=7321.61ms min=7321.61ms max=7321.61ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f06_after_edit
+I/flutter ( 7038): E2E STEP: settings tab for linked phone
+D/EGL_emulation( 7038): app_time_stats: avg=119.72ms min=24.24ms max=339.56ms count=9
+D/EGL_emulation( 7038): app_time_stats: avg=116.04ms min=111.71ms max=119.89ms count=9
+D/EGL_emulation( 7038): app_time_stats: avg=2584.84ms min=2584.84ms max=2584.84ms count=1
+I/flutter ( 7038): E2E STEP: screenshot f07_settings
+I/flutter ( 7038): E2E STEP: FAMILY CHECKS PASSED
+I/flutter ( 7038): 00:38 +1: (tearDownAll)
+I/flutter ( 7038): 00:38 +2: All tests passed!
+All tests passed.

@@ -1,0 +1,8 @@
+device time 18:17:44, dose at 18:20
+alarms registered: 92
+process after kill: '9181'
+waiting 161 s
+notification count: 0
+resumed:     topResumedActivity=ActivityRecord{19ccb98 u0 com.zakerney.zakerney/.MainActivity t12}
+FATAL in release: 0
+RELEASE ALARM OK

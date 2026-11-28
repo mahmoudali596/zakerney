@@ -1,0 +1,1 @@
+patient=1 family=0 care=1 doctor=0 release=0

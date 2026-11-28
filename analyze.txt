@@ -1,0 +1,31 @@
+Analyzing zakerney...                                           
+
+warning • The include file 'package:flutter_lints/flutter.yaml' in '/home/runner/work/zakerney/zakerney/zakerney/analysis_options.yaml' can't be found when analyzing '/home/runner/work/zakerney/zakerney/zakerney' • analysis_options.yaml:10:10 • include_file_not_found
+warning • Unused import: 'package:zakerney/cloud.dart' • integration_test/doctor_test.dart:11:8 • unused_import
+warning • Unused import: 'package:zakerney/store.dart' • integration_test/doctor_test.dart:15:8 • unused_import
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/alarm_service.dart:2:8 • unnecessary_import
+warning • Unused import: '../clinic/clinic_models.dart' • lib/care/care_patient_screen.dart:4:8 • unused_import
+   info • The import of 'package:firebase_core/firebase_core.dart' is unnecessary because all of the used elements are also provided by the import of 'package:cloud_firestore/cloud_firestore.dart' • lib/care/care_store.dart:6:8 • unnecessary_import
+   info • The import of 'package:firebase_core/firebase_core.dart' is unnecessary because all of the used elements are also provided by the import of 'package:cloud_firestore/cloud_firestore.dart' • lib/clinic/clinic_repo.dart:5:8 • unnecessary_import
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/app_test.dart:131:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/app_test.dart:131:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/app_test.dart:141:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/app_test.dart:141:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/app_test.dart:359:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/app_test.dart:359:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/app_test.dart:361:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/app_test.dart:361:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/care_test.dart:402:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/care_test.dart:402:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/care_test.dart:558:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/care_test.dart:558:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/care_test.dart:568:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/care_test.dart:568:21 • invalid_use_of_protected_member
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/care_test.dart:578:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/care_test.dart:578:21 • invalid_use_of_protected_member
+warning • Unused import: 'package:zakerney/cloud.dart' • tool/e2e/doctor_test.dart:11:8 • unused_import
+warning • Unused import: 'package:zakerney/store.dart' • tool/e2e/doctor_test.dart:15:8 • unused_import
+warning • The member 'handlePopRoute' can only be used within 'package:flutter/src/widgets/binding.dart' or a test • tool/e2e/doctor_test.dart:337:21 • invalid_use_of_visible_for_testing_member
+warning • The member 'handlePopRoute' can only be used within instance members of subclasses of 'package:flutter/src/widgets/binding.dart' • tool/e2e/doctor_test.dart:337:21 • invalid_use_of_protected_member
+
+27 issues found. (ran in 20.9s)

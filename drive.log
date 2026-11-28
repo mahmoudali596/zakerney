@@ -1,0 +1,298 @@
+Resolving dependencies...
+Downloading packages...
+  _flutterfire_internals 1.3.59 (1.4.0 available)
+  archive 4.0.9 (4.7.1 available)
+  async 2.13.0 (2.13.1 available)
+  audioplayers 6.6.0 (6.8.1 available)
+  audioplayers_android 5.2.1 (5.3.0 available)
+  audioplayers_darwin 6.4.0 (6.5.0 available)
+  audioplayers_linux 4.2.1 (4.3.0 available)
+  audioplayers_platform_interface 7.1.1 (7.2.0 available)
+  audioplayers_web 5.2.0 (5.3.0 available)
+  audioplayers_windows 4.3.0 (4.4.1 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  cloud_firestore 5.6.12 (7.2.0 available)
+  cloud_firestore_platform_interface 6.6.12 (8.2.0 available)
+  cloud_firestore_web 4.4.12 (5.9.0 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.1 available)
+  device_info_plus 11.5.0 (13.3.0 available)
+  device_info_plus_platform_interface 7.0.3 (8.1.0 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.4+4 (0.9.5+2 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  firebase_auth 5.7.0 (7.1.0 available)
+  firebase_auth_platform_interface 7.7.3 (9.2.0 available)
+  firebase_auth_web 5.15.3 (6.4.0 available)
+  firebase_core 3.15.2 (5.2.0 available)
+  firebase_core_platform_interface 6.0.3 (8.2.0 available)
+  firebase_core_web 2.24.1 (4.2.0 available)
+  flutter_local_notifications 17.2.4 (23.0.4 available)
+  flutter_local_notifications_linux 4.0.1 (9.0.0 available)
+  flutter_local_notifications_platform_interface 7.2.0 (13.0.0 available)
+  flutter_plugin_android_lifecycle 2.0.31 (2.0.35 available)
+  flutter_timezone 3.0.1 (5.1.1 available)
+  image 4.5.4 (4.13.1 available)
+  image_picker 1.2.1 (1.2.4 available)
+  image_picker_android 0.8.13+1 (0.8.13+25 available)
+  image_picker_ios 0.8.13 (0.8.13+16 available)
+  image_picker_macos 0.2.2 (0.2.2+1 available)
+  image_picker_platform_interface 2.11.1 (2.11.2 available)
+  intl 0.20.2 (0.20.3 available)
+  leak_tracker 10.0.9 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  package_info_plus 9.0.1 (10.2.2 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.11.3 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  printing 5.14.3 (5.15.1 available)
+  process 5.0.3 (5.0.6 available)
+  qr 3.0.3 (4.0.1 available)
+  record 6.2.1 (7.2.0 available)
+  record_android 1.5.2 (2.3.0 available)
+  record_ios 1.2.1 (2.1.1 available)
+  record_linux 1.3.1 (2.2.0 available)
+  record_macos 1.2.2 (2.1.1 available)
+  record_platform_interface 1.6.0 (2.2.0 available)
+  record_web 1.3.0 (2.2.0 available)
+  record_windows 1.0.7 (2.4.0 available)
+  shared_preferences 2.5.3 (2.5.6 available)
+  shared_preferences_android 2.4.13 (2.5.5 available)
+  shared_preferences_foundation 2.5.4 (2.6.2 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  source_span 1.10.1 (1.10.2 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  synchronized 3.4.0 (3.6.1+1 available)
+  test_api 0.7.4 (0.7.15 available)
+  timezone 0.9.4 (0.11.2 available)
+  url_launcher 6.3.2 (6.3.3 available)
+  url_launcher_android 6.3.20 (6.3.35 available)
+  url_launcher_ios 6.3.4 (6.4.2 available)
+  url_launcher_linux 3.2.2 (3.2.3 available)
+  url_launcher_macos 3.2.3 (3.2.6 available)
+  url_launcher_web 2.4.1 (2.4.3 available)
+  url_launcher_windows 3.1.5 (3.1.6 available)
+  vector_math 2.1.4 (2.4.4 available)
+  vibration 2.1.0 (3.2.1 available)
+  vibration_platform_interface 0.0.3 (0.1.2 available)
+  vm_service 15.0.0 (15.4.0 available)
+  wakelock_plus 1.4.0 (1.8.2 available)
+  wakelock_plus_platform_interface 1.3.0 (1.7.0 available)
+  web 1.1.1 (1.1.2 available)
+  webdriver 3.1.0 (3.2.0 available)
+  win32 5.15.0 (6.4.0 available)
+  win32_registry 2.1.0 (3.0.3 available)
+  xml 6.6.1 (7.1.0 available)
+Got dependencies!
+94 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                          
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- cloud_firestore requires Android NDK 27.0.12077973
+- device_info_plus requires Android NDK 27.0.12077973
+- firebase_auth requires Android NDK 27.0.12077973
+- firebase_core requires Android NDK 27.0.12077973
+- flutter_local_notifications requires Android NDK 27.0.12077973
+- flutter_plugin_android_lifecycle requires Android NDK 27.0.12077973
+- flutter_timezone requires Android NDK 27.0.12077973
+- image_picker_android requires Android NDK 27.0.12077973
+- package_info_plus requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+- printing requires Android NDK 27.0.12077973
+- record_android requires Android NDK 27.0.12077973
+- shared_preferences_android requires Android NDK 27.0.12077973
+- url_launcher_android requires Android NDK 27.0.12077973
+- vibration requires Android NDK 27.0.12077973
+- wakelock_plus requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to /home/runner/work/zakerney/zakerney/zakerney/android/app/build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Running Gradle task 'assembleDebug'...                             52.0s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...        2,232ms
+W/OpenGLRenderer( 5251): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/Gralloc4( 5251): mapper 4.x is not supported
+I/Choreographer( 5251): Skipped 91 frames!  The application may be doing too much work on its main thread.
+W/System  ( 5251): ClassLoader referenced unknown path: 
+D/nativeloader( 5251): Configuring clns-7 for other apk . target_sdk_version=35, uses_libraries=, library_path=/data/app/~~t4TbUOrIH8aPiZJapJYx2Q==/com.zakerney.zakerney-7QfzwXbYrk2lM1I4z6-vUg==/lib/x86_64:/data/app/~~t4TbUOrIH8aPiZJapJYx2Q==/com.zakerney.zakerney-7QfzwXbYrk2lM1I4z6-vUg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.zakerney.zakerney
+W/WindowOnBackDispatcher( 5251): sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@794e16b
+I/flutter ( 5251): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+D/AutofillManager( 5251): Fill dialog is enabled:false, hints=[]
+I/Choreographer( 5251): Skipped 123 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:43239/U4lrN0ZjmRQ=/
+VMServiceFlutterDriver: Isolate found with number: 7981693267192531
+I/Choreographer( 5251): Skipped 72 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Isolate 7981693267192531 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5251): 00:00 +0: Zakerney end-to-end
+VMServiceFlutterDriver: Connected to Flutter application.
+D/CompatibilityChangeReporter( 5251): Compat change id reported: 236825255; UID 10192; state: ENABLED
+I/flutter ( 5251): E2E STEP: waiting for alarm screen
+D/ProfileInstaller( 5251): Installing profile for com.zakerney.zakerney
+D/CompatibilityChangeReporter( 5251): Compat change id reported: 183155436; UID 10192; state: ENABLED
+I/FirebaseApp( 5251): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+D/CompatibilityChangeReporter( 5251): Compat change id reported: 3400644; UID 10192; state: ENABLED
+D/EGL_emulation( 5251): app_time_stats: avg=204.19ms min=54.97ms max=452.44ms count=7
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=2841.94ms min=2841.94ms max=2841.94ms count=1
+D/CompatibilityChangeReporter( 5251): Compat change id reported: 160794467; UID 10192; state: ENABLED
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=540.42ms min=121.83ms max=959.01ms count=2
+D/EGL_emulation( 5251): app_time_stats: avg=436.01ms min=141.72ms max=629.94ms count=3
+I/kerney.zakerney( 5251): Background young concurrent copying GC freed 47401(1996KB) AllocSpace objects, 42(1448KB) LOS objects, 47% free, 3780KB/7230KB, paused 33us,10us total 110.112ms
+V/MediaPlayer( 5251): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer( 5251): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+I/flutter ( 5251): E2E STEP: screenshot 01_alarm
+I/flutter ( 5251): E2E STEP: missed dose logged
+I/flutter ( 5251): E2E STEP: confirm dose
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 33472(1417KB) AllocSpace objects, 41(2128KB) LOS objects, 49% free, 3651KB/7302KB, paused 17us,6us total 154.371ms
+I/flutter ( 5251): E2E STEP: pill stock went down and low-stock alert logged
+D/EGL_emulation( 5251): app_time_stats: avg=1235.68ms min=761.33ms max=1710.03ms count=2
+V/MediaPlayer( 5251): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer( 5251): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+V/MediaPlayer( 5251): resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+V/MediaPlayer( 5251): cleanDrmObj: mDrmObj=null mDrmSessionId=null
+D/EGL_emulation( 5251): app_time_stats: avg=301.90ms min=44.48ms max=569.92ms count=4
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 47072(1792KB) AllocSpace objects, 36(1992KB) LOS objects, 49% free, 3680KB/7360KB, paused 18us,10us total 119.181ms
+D/EGL_emulation( 5251): app_time_stats: avg=1221.18ms min=951.84ms max=1490.52ms count=2
+I/kerney.zakerney( 5251): Background young concurrent copying GC freed 43942(1702KB) AllocSpace objects, 24(1484KB) LOS objects, 43% free, 4190KB/7360KB, paused 18us,9us total 158.956ms
+D/EGL_emulation( 5251): app_time_stats: avg=1595.16ms min=1595.16ms max=1595.16ms count=1
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 42807(1611KB) AllocSpace objects, 22(1536KB) LOS objects, 49% free, 4930KB/9861KB, paused 12us,275us total 606.282ms
+D/EGL_emulation( 5251): app_time_stats: avg=1307.83ms min=1307.83ms max=1307.83ms count=1
+D/EGL_emulation( 5251): app_time_stats: avg=1228.93ms min=1228.93ms max=1228.93ms count=1
+D/EGL_emulation( 5251): app_time_stats: avg=1056.06ms min=1056.06ms max=1056.06ms count=1
+D/EGL_emulation( 5251): app_time_stats: avg=409.07ms min=319.16ms max=514.92ms count=3
+D/EGL_emulation( 5251): app_time_stats: avg=426.39ms min=381.96ms max=468.47ms count=3
+I/kerney.zakerney( 5251): Background young concurrent copying GC freed 54779(2135KB) AllocSpace objects, 26(1428KB) LOS objects, 39% free, 4600KB/7543KB, paused 41us,83us total 122.397ms
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 47461(1842KB) AllocSpace objects, 32(1664KB) LOS objects, 49% free, 3926KB/7853KB, paused 1.608ms,8us total 119.451ms
+D/EGL_emulation( 5251): app_time_stats: avg=421.22ms min=276.19ms max=607.30ms count=3
+D/EGL_emulation( 5251): app_time_stats: avg=261.14ms min=167.91ms max=372.63ms count=4
+D/EGL_emulation( 5251): app_time_stats: avg=429.32ms min=292.98ms max=621.98ms count=3
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 56124(2204KB) AllocSpace objects, 48(2096KB) LOS objects, 49% free, 4513KB/9026KB, paused 16us,11us total 335.285ms
+D/EGL_emulation( 5251): app_time_stats: avg=347.27ms min=249.44ms max=426.66ms count=3
+I/kerney.zakerney( 5251): Background young concurrent copying GC freed 63346(2396KB) AllocSpace objects, 33(2132KB) LOS objects, 49% free, 4598KB/9026KB, paused 1.472ms,12us total 104.157ms
+D/EGL_emulation( 5251): app_time_stats: avg=1057.02ms min=1057.02ms max=1057.02ms count=1
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 71998(2701KB) AllocSpace objects, 41(2908KB) LOS objects, 49% free, 4749KB/9498KB, paused 21us,9us total 139.797ms
+D/EGL_emulation( 5251): app_time_stats: avg=407.86ms min=359.40ms max=492.52ms count=3
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 84641(3252KB) AllocSpace objects, 36(2576KB) LOS objects, 49% free, 4122KB/8244KB, paused 5.262ms,11us total 82.421ms
+D/EGL_emulation( 5251): app_time_stats: avg=562.35ms min=559.31ms max=565.38ms count=2
+D/EGL_emulation( 5251): app_time_stats: avg=14868.60ms min=7958.27ms max=21778.93ms count=2
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 84033(3325KB) AllocSpace objects, 50(2976KB) LOS objects, 49% free, 4975KB/9950KB, paused 1.401ms,2.894ms total 378.485ms
+I/flutter ( 5251): E2E STEP: screenshot 02_patient_home
+I/flutter ( 5251): E2E STEP: help button
+D/EGL_emulation( 5251): app_time_stats: avg=407.47ms min=196.69ms max=733.69ms count=4
+D/EGL_emulation( 5251): app_time_stats: avg=446.69ms min=209.01ms max=876.48ms count=3
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=220.39ms min=62.96ms max=400.61ms count=5
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 107948(4121KB) AllocSpace objects, 68(3348KB) LOS objects, 49% free, 3904KB/7809KB, paused 24us,10us total 158.724ms
+D/EGL_emulation( 5251): app_time_stats: avg=411.26ms min=375.58ms max=451.78ms count=3
+I/kerney.zakerney( 5251): Background concurrent copying GC freed 66137(2506KB) AllocSpace objects, 33(2320KB) LOS objects, 49% free, 4180KB/8361KB, paused 211us,3.324ms total 164.795ms
+D/EGL_emulation( 5251): app_time_stats: avg=256.60ms min=124.02ms max=414.28ms count=4
+D/EGL_emulation( 5251): app_time_stats: avg=6205.62ms min=6205.62ms max=6205.62ms count=1
+I/flutter ( 5251): E2E STEP: screenshot 03_help
+D/EGL_emulation( 5251): app_time_stats: avg=160.93ms min=106.72ms max=458.58ms count=8
+D/EGL_emulation( 5251): app_time_stats: avg=92.39ms min=25.10ms max=119.12ms count=11
+I/flutter ( 5251): E2E STEP: patient assistant
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=2370.75ms min=2370.75ms max=2370.75ms count=1
+D/EGL_emulation( 5251): app_time_stats: avg=151.52ms min=86.06ms max=316.73ms count=7
+D/EGL_emulation( 5251): app_time_stats: avg=107.50ms min=34.43ms max=121.19ms count=10
+D/EGL_emulation( 5251): app_time_stats: avg=2197.43ms min=2197.43ms max=2197.43ms count=1
+I/kerney.zakerney( 5251): NativeAlloc concurrent copying GC freed 47185(1860KB) AllocSpace objects, 32(2516KB) LOS objects, 49% free, 3656KB/7312KB, paused 18us,10us total 107.305ms
+I/flutter ( 5251): E2E STEP: screenshot 03b_assistant
+D/EGL_emulation( 5251): app_time_stats: avg=201.87ms min=20.84ms max=1252.87ms count=11
+I/flutter ( 5251): E2E STEP: emergency screen
+D/EGL_emulation( 5251): app_time_stats: avg=97.91ms min=24.66ms max=125.92ms count=11
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=107.50ms min=71.80ms max=151.72ms count=10
+D/EGL_emulation( 5251): app_time_stats: avg=114.40ms min=102.92ms max=121.62ms count=9
+D/EGL_emulation( 5251): app_time_stats: avg=5024.40ms min=5024.40ms max=5024.40ms count=1
+I/flutter ( 5251): E2E STEP: screenshot 03c_emergency
+D/EGL_emulation( 5251): app_time_stats: avg=195.83ms min=114.94ms max=588.04ms count=6
+I/flutter ( 5251): E2E STEP: family mode by long press, no PIN
+D/EGL_emulation( 5251): app_time_stats: avg=114.48ms min=30.57ms max=227.88ms count=9
+D/EGL_emulation( 5251): app_time_stats: avg=164.95ms min=27.13ms max=777.33ms count=8
+W/WindowOnBackDispatcher( 5251): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5251): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5251): app_time_stats: avg=106.21ms min=25.49ms max=205.78ms count=10
+D/EGL_emulation( 5251): app_time_stats: avg=114.44ms min=100.92ms max=125.45ms count=9
+I/flutter ( 5251): ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+I/flutter ( 5251): The following TestFailure was thrown running a test:
+I/flutter ( 5251): Expected: exactly one matching candidate
+I/flutter ( 5251):   Actual: _TextWidgetFinder:<Found 0 widgets with text "أدوية قربت تخلص": []>
+I/flutter ( 5251):    Which: means none were found but one was expected
+I/flutter ( 5251): 
+I/flutter ( 5251): When the exception was thrown, this was the stack:
+I/flutter ( 5251): #4      main.<anonymous closure> (file:///home/runner/work/zakerney/zakerney/zakerney/integration_test/app_test.dart:149:5)
+I/flutter ( 5251): <asynchronous suspension>
+I/flutter ( 5251): #5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:193:15)
+I/flutter ( 5251): <asynchronous suspension>
+I/flutter ( 5251): #6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1064:5)
+I/flutter ( 5251): <asynchronous suspension>
+I/flutter ( 5251): #7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+I/flutter ( 5251): <asynchronous suspension>
+I/flutter ( 5251): 
+I/flutter ( 5251): This was caught by the test expectation on the following line:
+I/flutter ( 5251):   file:///home/runner/work/zakerney/zakerney/zakerney/integration_test/app_test.dart line 149
+I/flutter ( 5251): The test description was:
+I/flutter ( 5251):   Zakerney end-to-end
+I/flutter ( 5251): ════════════════════════════════════════════════════════════════════════════════════════════════════
+I/flutter ( 5251): 00:52 +0: Zakerney end-to-end [E]
+I/flutter ( 5251):   Test failed. See exception logs above.
+I/flutter ( 5251):   The test description was: Zakerney end-to-end
+I/flutter ( 5251):   
+I/flutter ( 5251): 00:52 +0 -1: (tearDownAll)
+I/flutter ( 5251): 00:52 +1 -1: Some tests failed.
+D/EGL_emulation( 5251): app_time_stats: avg=6495.80ms min=6495.80ms max=6495.80ms count=1
+Failure Details:
+Failure in method: Zakerney end-to-end
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "أدوية
+قربت تخلص": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///home/runner/work/zakerney/zakerney/zakerney/integration_test/app_test.dart:149:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:193:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1064:5)
+<asynchronous suspension>
+#7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:814:12)
+<asynchronous suspension>
+
+This was caught by the test expectation on the following line:
+  file:///home/runner/work/zakerney/zakerney/zakerney/integration_test/app_test.dart line 149
+The test description was:
+  Zakerney end-to-end
+═════════════════════════════════════════════════════════════════
+
+end of failure 1
+
+
+

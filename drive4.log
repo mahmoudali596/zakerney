@@ -1,0 +1,314 @@
+Resolving dependencies...
+Downloading packages...
+  _flutterfire_internals 1.3.59 (1.4.0 available)
+  archive 4.0.9 (4.7.1 available)
+  async 2.13.0 (2.13.1 available)
+  audioplayers 6.6.0 (6.8.1 available)
+  audioplayers_android 5.2.1 (5.3.0 available)
+  audioplayers_darwin 6.4.0 (6.5.0 available)
+  audioplayers_linux 4.2.1 (4.3.0 available)
+  audioplayers_platform_interface 7.1.1 (7.2.0 available)
+  audioplayers_web 5.2.0 (5.3.0 available)
+  audioplayers_windows 4.3.0 (4.4.1 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  cloud_firestore 5.6.12 (7.2.0 available)
+  cloud_firestore_platform_interface 6.6.12 (8.2.0 available)
+  cloud_firestore_web 4.4.12 (5.9.0 available)
+  cross_file 0.3.5+2 (0.4.0 available)
+  dbus 0.7.15 (0.8.1 available)
+  device_info_plus 11.5.0 (13.3.0 available)
+  device_info_plus_platform_interface 7.0.3 (8.1.0 available)
+  file_selector_linux 0.9.4 (0.9.4+1 available)
+  file_selector_macos 0.9.4+4 (0.9.5+2 available)
+  file_selector_windows 0.9.3+5 (0.9.3+6 available)
+  firebase_auth 5.7.0 (7.1.0 available)
+  firebase_auth_platform_interface 7.7.3 (9.2.0 available)
+  firebase_auth_web 5.15.3 (6.4.0 available)
+  firebase_core 3.15.2 (5.2.0 available)
+  firebase_core_platform_interface 6.0.3 (8.2.0 available)
+  firebase_core_web 2.24.1 (4.2.0 available)
+  flutter_local_notifications 17.2.4 (23.0.4 available)
+  flutter_local_notifications_linux 4.0.1 (9.0.0 available)
+  flutter_local_notifications_platform_interface 7.2.0 (13.0.0 available)
+  flutter_plugin_android_lifecycle 2.0.31 (2.0.35 available)
+  flutter_timezone 3.0.1 (5.1.1 available)
+  image 4.5.4 (4.13.1 available)
+  image_picker 1.2.1 (1.2.4 available)
+  image_picker_android 0.8.13+1 (0.8.13+25 available)
+  image_picker_ios 0.8.13 (0.8.13+16 available)
+  image_picker_macos 0.2.2 (0.2.2+1 available)
+  image_picker_platform_interface 2.11.1 (2.11.2 available)
+  intl 0.20.2 (0.20.3 available)
+  leak_tracker 10.0.9 (11.0.2 available)
+  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
+  leak_tracker_testing 3.0.1 (3.0.2 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  package_info_plus 9.0.1 (10.2.2 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider 2.1.5 (2.1.6 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  pdf 3.11.3 (3.13.1 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  printing 5.14.3 (5.15.1 available)
+  process 5.0.3 (5.0.6 available)
+  qr 3.0.3 (4.0.1 available)
+  record 6.2.1 (7.2.0 available)
+  record_android 1.5.2 (2.3.0 available)
+  record_ios 1.2.1 (2.1.1 available)
+  record_linux 1.3.1 (2.2.0 available)
+  record_macos 1.2.2 (2.1.1 available)
+  record_platform_interface 1.6.0 (2.2.0 available)
+  record_web 1.3.0 (2.2.0 available)
+  record_windows 1.0.7 (2.4.0 available)
+  shared_preferences 2.5.3 (2.5.6 available)
+  shared_preferences_android 2.4.13 (2.5.5 available)
+  shared_preferences_foundation 2.5.4 (2.6.2 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  source_span 1.10.1 (1.10.2 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  synchronized 3.4.0 (3.6.1+1 available)
+  test_api 0.7.4 (0.7.15 available)
+  timezone 0.9.4 (0.11.2 available)
+  url_launcher 6.3.2 (6.3.3 available)
+  url_launcher_android 6.3.20 (6.3.35 available)
+  url_launcher_ios 6.3.4 (6.4.2 available)
+  url_launcher_linux 3.2.2 (3.2.3 available)
+  url_launcher_macos 3.2.3 (3.2.6 available)
+  url_launcher_web 2.4.1 (2.4.3 available)
+  url_launcher_windows 3.1.5 (3.1.6 available)
+  vector_math 2.1.4 (2.4.4 available)
+  vibration 2.1.0 (3.2.1 available)
+  vibration_platform_interface 0.0.3 (0.1.2 available)
+  vm_service 15.0.0 (15.4.0 available)
+  wakelock_plus 1.4.0 (1.8.2 available)
+  wakelock_plus_platform_interface 1.3.0 (1.7.0 available)
+  web 1.1.1 (1.1.2 available)
+  webdriver 3.1.0 (3.2.0 available)
+  win32 5.15.0 (6.4.0 available)
+  win32_registry 2.1.0 (3.0.3 available)
+  xml 6.6.1 (7.1.0 available)
+Got dependencies!
+94 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                          
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version:
+- audioplayers_android requires Android NDK 27.0.12077973
+- cloud_firestore requires Android NDK 27.0.12077973
+- device_info_plus requires Android NDK 27.0.12077973
+- firebase_auth requires Android NDK 27.0.12077973
+- firebase_core requires Android NDK 27.0.12077973
+- flutter_local_notifications requires Android NDK 27.0.12077973
+- flutter_plugin_android_lifecycle requires Android NDK 27.0.12077973
+- flutter_timezone requires Android NDK 27.0.12077973
+- image_picker_android requires Android NDK 27.0.12077973
+- package_info_plus requires Android NDK 27.0.12077973
+- path_provider_android requires Android NDK 27.0.12077973
+- printing requires Android NDK 27.0.12077973
+- record_android requires Android NDK 27.0.12077973
+- shared_preferences_android requires Android NDK 27.0.12077973
+- url_launcher_android requires Android NDK 27.0.12077973
+- vibration requires Android NDK 27.0.12077973
+- wakelock_plus requires Android NDK 27.0.12077973
+Fix this issue by using the highest Android NDK version (they are backward compatible).
+Add the following to /home/runner/work/zakerney/zakerney/zakerney/android/app/build.gradle.kts:
+
+    android {
+        ndkVersion = "27.0.12077973"
+        ...
+    }
+Running Gradle task 'assembleDebug'...                             29.0s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...        1,572ms
+I/Choreographer( 8548): Skipped 46 frames!  The application may be doing too much work on its main thread.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:37839/3zzNnhg10Nk=/
+VMServiceFlutterDriver: Isolate found with number: 2761842183929683
+VMServiceFlutterDriver: Isolate 2761842183929683 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 8548): 00:00 +0: Doctor account and doctor screens end-to-end
+VMServiceFlutterDriver: Connected to Flutter application.
+D/CompatibilityChangeReporter( 8548): Compat change id reported: 183155436; UID 10195; state: ENABLED
+I/FirebaseApp( 8548): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+D/CompatibilityChangeReporter( 8548): Compat change id reported: 3400644; UID 10195; state: ENABLED
+I/flutter ( 8548): E2E STEP: patient phone makes a doctor code and has a reading
+I/FirebaseApp( 8548): Device unlocked: initializing all Firebase APIs for app patC
+W/System  ( 8548): Ignoring header X-Firebase-Locale because its value was null.
+D/TrafficStats( 8548): tagSocket(128) with statsTag=0xffffffff, statsUid=-1
+D/ProfileInstaller( 8548): Installing profile for com.zakerney.zakerney
+W/System  ( 8548): Ignoring header X-Firebase-Locale because its value was null.
+D/FirebaseAuth( 8548): Notifying id token listeners about user ( jLh8YcrcIef7E5wzDJdae1KEqe62 ).
+D/FirebaseAuth( 8548): Notifying auth state listeners about user ( jLh8YcrcIef7E5wzDJdae1KEqe62 ).
+W/DynamiteModule( 8548): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule( 8548): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 8548): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/nativeloader( 8548): Configuring clns-7 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/nativeloader( 8548): Configuring clns-8 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/nativeloader( 8548): Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+D/ApplicationLoaders( 8548): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders( 8548): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+D/nativeloader( 8548): InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvndksupport.so:libvulkan.so
+D/nativeloader( 8548): Configuring product-clns-10 for unbundled product apk /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk. target_sdk_version=33, uses_libraries=, library_path=/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+D/nativeloader( 8548): InitVndkspLibrariesProduct: android.hardware.common-V2-ndk.so:android.hardware.common.fmq-V1-ndk.so:android.hardware.graphics.allocator-V2-ndk.so:android.hardware.graphics.common-V4-ndk.so:android.hardware.graphics.common@1.0.so:android.hardware.graphics.common@1.1.so:android.hardware.graphics.common@1.2.so:android.hardware.graphics.composer3-V1-ndk.so:android.hardware.graphics.mapper@2.0.so:android.hardware.graphics.mapper@2.1.so:android.hardware.graphics.mapper@3.0.so:android.hardware.graphics.mapper@4.0.so:android.hardware.renderscript@1.0.so:android.hidl.memory.token@1.0.so:android.hidl.memory@1.0-impl.so:android.hidl.memory@1.0.so:android.hidl.safe_union@1.0.so:libRSCpuRef.so:libRSDriver.so:libRS_internal.so:libbase.so:libbcinfo.so:libblas.so:libc++.so:libcompiler_rt.so:libcutils.so:libdmabufheap.so:libgralloctypes.so:libhardware.so:libhidlbase.so:libhidlmemory.so:libion.so:libjsoncpp.so:liblzma.so:libprocessgroup.so:libunwindstack.so:libutils.so:libutilscallstack.so:libz.so
+V/NativeCrypto( 8548): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 295 native methods...
+W/kerney.zakerney( 8548): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (unsupported, reflection, allowed)
+I/ProviderInstaller( 8548): Installed default security provider GmsCore_OpenSSL
+D/TrafficStats( 8548): tagSocket(147) with statsTag=0xffffffff, statsUid=-1
+W/kerney.zakerney( 8548): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (unsupported, reflection, allowed)
+W/kerney.zakerney( 8548): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (unsupported, reflection, allowed)
+I/flutter ( 8548): E2E STEP: fresh install: choose doctor, create the account
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 8548): app_time_stats: avg=2625.07ms min=1304.19ms max=3945.95ms count=2
+D/EGL_emulation( 8548): app_time_stats: avg=175.54ms min=47.26ms max=584.62ms count=7
+W/WindowOnBackDispatcher( 8548): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8548): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 8548): com.zakerney.zakerney:40413b8c: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:40413b8c: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:c2f76138: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:c2f76138: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:a14a5708: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:a14a5708: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:367d8c27: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:367d8c27: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:ea0d3e73: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:ea0d3e73: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:8f7e8de7: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:8f7e8de7: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:9fd7f897: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:9fd7f897: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:627b606: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:627b606: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F....ID 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:bf5820fa: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:bf5820fa: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:d9aa5bc: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:d9aa5bc: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:1e8f39c4: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:1e8f39c4: onFailed at PHASE_CLIENT_VIEW_SERVED
+D/EGL_emulation( 8548): app_time_stats: avg=102.26ms min=44.16ms max=137.21ms count=10
+D/CompatibilityChangeReporter( 8548): Compat change id reported: 236825255; UID 10195; state: ENABLED
+D/EGL_emulation( 8548): app_time_stats: avg=2827.32ms min=588.54ms max=6881.35ms count=3
+I/flutter ( 8548): E2E STEP: screenshot d00_signup
+D/EGL_emulation( 8548): app_time_stats: avg=159.00ms min=113.69ms max=458.55ms count=8
+I/FirebaseAuth( 8548): Creating user with zk-ui-doc-1795889807761@test.zakerny.app with empty reCAPTCHA token
+W/System  ( 8548): Ignoring header X-Firebase-Locale because its value was null.
+D/TrafficStats( 8548): tagSocket(168) with statsTag=0xffffffff, statsUid=-1
+W/System  ( 8548): Ignoring header X-Firebase-Locale because its value was null.
+D/FirebaseAuth( 8548): Notifying id token listeners about user ( QKWwKIRbi1Wk0Huu8HeboxQHwkw2 ).
+D/FirebaseAuth( 8548): Notifying auth state listeners about user ( QKWwKIRbi1Wk0Huu8HeboxQHwkw2 ).
+W/DynamiteModule( 8548): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+I/DynamiteModule( 8548): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 8548): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/TrafficStats( 8548): tagSocket(158) with statsTag=0xffffffff, statsUid=-1
+D/EGL_emulation( 8548): app_time_stats: avg=108.30ms min=19.21ms max=242.70ms count=10
+I/flutter ( 8548): E2E STEP: rules: a doctor cannot verify itself or become an admin
+D/EGL_emulation( 8548): app_time_stats: avg=131.23ms min=105.08ms max=233.45ms count=9
+W/Firestore( 8548): (25.1.4) [WriteStream]: (d4be98f) Stream closed with status: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}.
+W/Firestore( 8548): (25.1.4) [Firestore]: Write failed at users/QKWwKIRbi1Wk0Huu8HeboxQHwkw2: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}
+I/flutter ( 8548): E2E STEP: refused as expected: [cloud_firestore/permission-denied] The caller does not have permission to execute the specified operation.
+W/Firestore( 8548): (25.1.4) [WriteStream]: (d4be98f) Stream closed with status: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}.
+W/Firestore( 8548): (25.1.4) [Firestore]: Write failed at users/QKWwKIRbi1Wk0Huu8HeboxQHwkw2: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}
+I/flutter ( 8548): E2E STEP: refused as expected: [cloud_firestore/permission-denied] The caller does not have permission to execute the specified operation.
+I/flutter ( 8548): E2E STEP: link the patient with the doctor code
+D/EGL_emulation( 8548): app_time_stats: avg=220.51ms min=105.65ms max=650.53ms count=5
+W/WindowOnBackDispatcher( 8548): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8548): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 8548): com.zakerney.zakerney:900287f3: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:900287f3: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:5ee6556e: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:5ee6556e: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/AssistStructure( 8548): Flattened final assist data: 388 bytes, containing 1 windows, 3 views
+I/ImeTracker( 8548): com.zakerney.zakerney:d4be8a1e: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:d4be8a1e: onFailed at PHASE_CLIENT_VIEW_SERVED
+D/EGL_emulation( 8548): app_time_stats: avg=93.89ms min=14.57ms max=145.14ms count=12
+D/EGL_emulation( 8548): app_time_stats: avg=86.48ms min=7.88ms max=118.68ms count=12
+D/EGL_emulation( 8548): app_time_stats: avg=673.18ms min=115.72ms max=1702.97ms count=3
+D/CompatibilityChangeReporter( 8548): Compat change id reported: 160794467; UID 10195; state: ENABLED
+D/EGL_emulation( 8548): app_time_stats: avg=115.29ms min=30.34ms max=217.72ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=116.64ms min=112.96ms max=119.74ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=10743.18ms min=10743.18ms max=10743.18ms count=1
+I/flutter ( 8548): E2E STEP: screenshot d01_dashboard
+I/flutter ( 8548): E2E STEP: patient file: doctor card, edit a prescription with before/after audit
+D/EGL_emulation( 8548): app_time_stats: avg=156.83ms min=114.88ms max=390.31ms count=7
+D/EGL_emulation( 8548): app_time_stats: avg=99.73ms min=34.71ms max=126.51ms count=11
+W/WindowOnBackDispatcher( 8548): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8548): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 8548): app_time_stats: avg=116.63ms min=31.89ms max=195.42ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=118.90ms min=106.50ms max=131.05ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=116.41ms min=104.30ms max=128.01ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=5359.28ms min=5359.28ms max=5359.28ms count=1
+I/flutter ( 8548): E2E STEP: screenshot d02_profile
+D/EGL_emulation( 8548): app_time_stats: avg=149.92ms min=113.87ms max=351.49ms count=7
+D/EGL_emulation( 8548): app_time_stats: avg=98.32ms min=38.28ms max=128.33ms count=11
+D/EGL_emulation( 8548): app_time_stats: avg=116.99ms min=113.15ms max=120.48ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=101.24ms min=26.80ms max=166.92ms count=10
+I/ImeTracker( 8548): com.zakerney.zakerney:186d6b23: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:186d6b23: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:1cd1c6f7: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:1cd1c6f7: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/AssistStructure( 8548): Flattened final assist data: 456 bytes, containing 1 windows, 3 views
+I/ImeTracker( 8548): com.zakerney.zakerney:753a3c47: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:753a3c47: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:6c1e28ac: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:6c1e28ac: onFailed at PHASE_CLIENT_VIEW_SERVED
+W/InputMethodManager( 8548): Ignoring showSoftInput() as view=io.flutter.embedding.android.FlutterView{d97b38e VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} is not served.
+I/ImeTracker( 8548): com.zakerney.zakerney:3ba1783b: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+I/ImeTracker( 8548): com.zakerney.zakerney:3ba1783b: onFailed at PHASE_CLIENT_VIEW_SERVED
+D/EGL_emulation( 8548): app_time_stats: avg=103.09ms min=36.72ms max=119.80ms count=10
+D/EGL_emulation( 8548): app_time_stats: avg=101.19ms min=18.36ms max=123.48ms count=10
+D/EGL_emulation( 8548): app_time_stats: avg=136.10ms min=19.03ms max=681.12ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=135.52ms min=113.92ms max=264.15ms count=8
+I/flutter ( 8548): E2E STEP: prescribe a measurement schedule
+D/EGL_emulation( 8548): app_time_stats: avg=126.87ms min=95.64ms max=179.52ms count=8
+D/EGL_emulation( 8548): app_time_stats: avg=102.92ms min=11.41ms max=160.17ms count=10
+D/EGL_emulation( 8548): app_time_stats: avg=10599.92ms min=10599.92ms max=10599.92ms count=1
+I/flutter ( 8548): E2E STEP: screenshot d03_plan_editor
+D/EGL_emulation( 8548): app_time_stats: avg=147.76ms min=113.39ms max=334.66ms count=7
+D/EGL_emulation( 8548): app_time_stats: avg=159.19ms min=21.55ms max=655.03ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=136.01ms min=114.74ms max=268.51ms count=8
+I/flutter ( 8548): E2E STEP: request a CBC
+D/EGL_emulation( 8548): app_time_stats: avg=137.75ms min=80.64ms max=203.33ms count=8
+D/EGL_emulation( 8548): app_time_stats: avg=99.63ms min=24.97ms max=138.39ms count=11
+D/EGL_emulation( 8548): app_time_stats: avg=116.34ms min=112.40ms max=118.63ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=100.41ms min=38.74ms max=131.70ms count=11
+D/EGL_emulation( 8548): app_time_stats: avg=96.57ms min=36.01ms max=131.35ms count=11
+D/EGL_emulation( 8548): app_time_stats: avg=168.75ms min=42.01ms max=595.11ms count=6
+D/EGL_emulation( 8548): app_time_stats: avg=137.93ms min=115.37ms max=278.73ms count=8
+D/EGL_emulation( 8548): app_time_stats: avg=10498.44ms min=10498.44ms max=10498.44ms count=1
+I/flutter ( 8548): E2E STEP: screenshot d04_tests
+I/flutter ( 8548): E2E STEP: review the patient's readings and trend
+D/EGL_emulation( 8548): app_time_stats: avg=117.76ms min=34.39ms max=334.31ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=122.12ms min=113.47ms max=154.93ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=116.11ms min=108.46ms max=122.91ms count=9
+D/EGL_emulation( 8548): app_time_stats: avg=3557.05ms min=3557.05ms max=3557.05ms count=1
+I/flutter ( 8548): E2E STEP: screenshot d05_vitals
+I/flutter ( 8548): E2E STEP: sign out
+D/EGL_emulation( 8548): app_time_stats: avg=155.87ms min=47.08ms max=454.52ms count=7
+D/EGL_emulation( 8548): app_time_stats: avg=95.68ms min=23.07ms max=121.79ms count=11
+D/FirebaseAuth( 8548): Notifying id token listeners about a sign-out event.
+D/FirebaseAuth( 8548): Notifying auth state listeners about a sign-out event.
+I/flutter ( 8548): E2E STEP: DOCTOR CHECKS PASSED
+I/flutter ( 8548): 00:52 +1: (tearDownAll)
+I/flutter ( 8548): 00:52 +2: All tests passed!
+D/EGL_emulation( 8548): app_time_stats: avg=2644.52ms min=2644.52ms max=2644.52ms count=1
+All tests passed.
